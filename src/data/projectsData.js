@@ -1,7 +1,7 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
+import one from '../assets/svg/projects/one.png'
+import two from '../assets/svg/projects/two.jpg'
+import three from '../assets/svg/projects/three.PNG'
+import four from '../assets/svg/projects/four.PNG'
 import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
@@ -11,76 +11,40 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
+        projectName: 'Batabd website',
+        projectDesc: 'This is a ecommerce website.In this website anyone can order products,create account,login',
         tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/Shamim392/batabd-website-client-site',
+        demo: 'https://batabd-website.web.app/',
         image: one
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Travel Tour Website',
+        projectDesc: 'This project is a travel website',
+        tags: ['React', 'CSS'],
+        code: 'https://github.com/Shamim392/travel-tour-client-site',
+        demo: 'https://travel-tour-website-f63c6.web.app/',
         image: two
     },
     {
         id: 3,
         projectName: 'Weather App',
         projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        tags: ['Html', 'CSS', 'Bootstrap'],
+        code: 'https://github.com/Shamim392/temperature-api-practice',
+        demo: 'https://shamim392.github.io/temperature-api-practice/',
         image: three
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'honda- cbr',
+        projectDesc: 'This project is a simple honda cbr website',
+        tags: ['Html', 'CSS','bootstrap'],
+        code: 'https://github.com/Shamim392/honda-cbr-bootstrap',
+        demo: 'https://shamim392.github.io/honda-cbr-bootstrap/',
         image: four
     },
-    {
-        id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
-    },
-    {
-        id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: six
-    },
-    // {
-    //     id: 7,
-    //     projectName: 'Stock Market App',
-    //     projectDesc: 'A simple stock market API app',
-    //     tags: ['React', 'Redux', 'Bootstrap'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: seven
-    // },
-    // {
-    //     id: 8,
-    //     projectName: 'Car Pooling System',
-    //     projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-    //     tags: ['Flutter', 'React'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: eight
-    // },
 ]
 
 
